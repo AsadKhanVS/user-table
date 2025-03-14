@@ -54,4 +54,4 @@ npm run dev
    Create a .env file in the backend with the following:
 
 PORT=5000
-MONGO_URI=mongodb+srv://anees:anees@firstcluster.0wv4k.mongodb.net/?retryWrites=true&w=majority&appName=FirstCluster/asad
+MONGO_URI=''
