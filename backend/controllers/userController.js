@@ -44,7 +44,6 @@ export const getUsers = async (req, res, next) => {
   }
 };
 
-
 export const getUserById = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -102,7 +101,7 @@ export const seedUsers = async (req, res, next) => {
       });
     }
 
-    await User.deleteMany({}); // Clear existing users
+    await User.deleteMany({});
     await User.insertMany(users);
 
     res.status(200).json({
